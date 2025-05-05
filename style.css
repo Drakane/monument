@@ -43,13 +43,26 @@ select {
 }
 
 p,
-h1,
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 4000;
+    
+}
+
 h2,
+
 h3,
+
 h4,
+
 h5,
+
 h6 {
     overflow-wrap: break-word;
+
 }
 
 button {
@@ -65,4 +78,44 @@ a {
 #root,
 #__next {
     isolation: isolate;
+}
+
+.carte_france {
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background-color: var(--black);
+}
+
+
+.images-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.images-container img {
+    max-width: 100px; 
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 100px; 
+}
+
+.image-container img {
+    max-width: 1000px; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 321px; 
 }
