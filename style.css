@@ -96,19 +96,6 @@ a {
 
 
 
-.images-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 1rem; 
-    border: #1E1E1E;
-}
-
-.images-container img {
-    max-width: 100px; 
-    height: auto;
-    border: #1E1E1E;
-}
 
 .image-container {
     display: flex;
@@ -116,15 +103,17 @@ a {
     align-items: center;
     gap: 100px; 
     border: #1E1E1E;
+
 }
 
-.image-container img {
-    max-width: 1000px; 
-    height: auto;
-    border-radius: 5px; 
-    border: 1px solid #1E1E1E;
+ img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: px solid #1E1E1E;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
-    transition: transform 0.3s ease-in-out;
+   
 
 }
 
